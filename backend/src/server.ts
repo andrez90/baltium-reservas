@@ -72,8 +72,17 @@ const frontendPath = path.join(__dirname, '../../frontend/dist');
 app.use(express.static(frontendPath));
 
 // Fallback all routing paths back to React index.html for client routers
+import fs from 'fs';
 app.get('*', (req, res) => {
-  res.sendFile(path.join(frontendPath, 'index.html'));
+  const indexPath = path.join(frontendPath, 'index.html');
+  if (fs.existsSync(indexPath)) {
+    res.sendFile(indexPath);
+  } else {
+    res.status(200).json({ 
+      message: "Baltium Reservas API is running. Client SPA is hosted externally.",
+      health: "http://localhost:3001/health"
+    });
+  }
 });
 
 // 5. Start Server
