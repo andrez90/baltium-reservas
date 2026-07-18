@@ -74,21 +74,21 @@ export const Dashboard: React.FC = () => {
   }
 
   return (
-    <div className="flex-1 flex flex-col gap-6 p-6 page-transition">
+    <div className="flex flex-col gap-4 md:gap-6 p-4 md:p-6 page-transition w-full min-w-0">
       
       {/* Welcome banner */}
-      <div className="flex justify-between items-center">
-        <div>
-          <h2 className="text-xl font-bold tracking-tight text-white">{tenant?.name || 'Administración'}</h2>
+      <div className="flex flex-wrap justify-between items-center gap-3">
+        <div className="min-w-0">
+          <h2 className="text-lg md:text-xl font-bold tracking-tight text-white truncate">{tenant?.name || 'Administración'}</h2>
           <p className="text-xs text-foreground/45 mt-0.5">Métricas de ocupación y reservas consolidadas para hoy.</p>
         </div>
-        <button onClick={fetchStats} className="p-2 hover:bg-panel border border-border rounded-lg text-foreground/60 hover:text-foreground transition-colors flex items-center gap-1.5 text-xs font-semibold">
+        <button onClick={fetchStats} className="flex-shrink-0 p-2 hover:bg-panel border border-border rounded-lg text-foreground/60 hover:text-foreground transition-colors flex items-center gap-1.5 text-xs font-semibold">
           <RefreshCw className="w-3.5 h-3.5" /> Actualizar
         </button>
       </div>
 
       {/* Grid Cards (Expected revenue, Occupancy, Bookings, Clients) */}
-      <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-3 md:gap-4">
         
         {/* Card 1: Daily occupancy */}
         <div className="bg-panel border border-panel-border rounded-2xl p-5 shadow-sm flex items-center justify-between">
