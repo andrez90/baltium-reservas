@@ -13,6 +13,7 @@ RUN npx prisma generate
 COPY tsconfig.json ./
 COPY src/ ./src/
 RUN npm run build
+RUN npx tsc prisma/seed.ts --outDir dist/prisma --module commonjs --target es2020 --esModuleInterop
 
 # Production image run stage
 FROM node:20-alpine
