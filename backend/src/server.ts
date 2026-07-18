@@ -87,10 +87,27 @@ app.get('*', (req, res) => {
 
 // 5. Start Server
 const PORT = process.env.PORT || 3001;
+import { exec } from 'child_process';
+
 server.listen(PORT, () => {
   logger.info(`===========================================================`);
   logger.info(`  Baltium Reservas backend running in ${process.env.NODE_ENV} mode`);
   logger.info(`  Server listening on http://localhost:${PORT}`);
   logger.info(`  Socket.io real-time engine running`);
   logger.info(`===========================================================`);
+
+  // Run database sync & seeding asynchronously in the background for Render compatibility
+  if (process.env.NODE_ENV === 'production') {
+    logger.info('Database sync and seeding started in the background...');
+    exec('npx prisma db push && node dist/prisma/seed.js', (error, stdout, stderr) => {
+      if (error) {
+        logger.error(`Database background init error: ${error.message}`);
+        return;
+      }
+      logger.info(`Database background init output: ${stdout}`);
+      if (stderr) {
+        logger.warn(`Database background init warnings: ${stderr}`);
+      }
+    });
+  }
 });
