@@ -1,0 +1,42 @@
+version: '3.8'
+
+services:
+  db:
+    image: postgres:15-alpine
+    container_name: baltium_reservas_db
+    restart: always
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: baltium_reservas
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+  backend:
+    build: ./backend
+    container_name: baltium_reservas_backend
+    restart: always
+    ports:
+      - "3001:3001"
+    environment:
+      - DATABASE_URL=postgresql://postgres:postgres@db:5432/baltium_reservas?schema=public
+      - PORT=3001
+      - NODE_ENV=production
+      - JWT_SECRET=baltium_super_secure_jwt_access_secret_2026
+      - JWT_REFRESH_SECRET=baltium_super_secure_jwt_refresh_secret_2026
+    depends_on:
+      - db
+
+  frontend:
+    build: ./frontend
+    container_name: baltium_reservas_frontend
+    restart: always
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
+
+volumes:
+  pgdata:

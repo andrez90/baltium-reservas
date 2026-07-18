@@ -1,0 +1,1081 @@
+2026-07-17 09:51:05 [INFO]: =========================================================== | Metadata: {"metadata":{}}
+2026-07-17 09:51:05 [INFO]:   Baltium Reservas backend running in development mode | Metadata: {"metadata":{}}
+2026-07-17 09:51:05 [INFO]:   Server listening on http://localhost:3001 | Metadata: {"metadata":{}}
+2026-07-17 09:51:05 [INFO]:   Socket.io real-time engine running | Metadata: {"metadata":{}}
+2026-07-17 09:51:05 [INFO]: =========================================================== | Metadata: {"metadata":{}}
+2026-07-17 09:53:59 [INFO]: =========================================================== | Metadata: {"metadata":{}}
+2026-07-17 09:53:59 [INFO]:   Baltium Reservas backend running in development mode | Metadata: {"metadata":{}}
+2026-07-17 09:53:59 [INFO]:   Server listening on http://localhost:3001 | Metadata: {"metadata":{}}
+2026-07-17 09:53:59 [INFO]:   Socket.io real-time engine running | Metadata: {"metadata":{}}
+2026-07-17 09:53:59 [INFO]: =========================================================== | Metadata: {"metadata":{}}
+2026-07-17 09:57:35 [INFO]: GET /api/notifications/simulator 200 - 17ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 09:57:35 [INFO]: GET /api/notifications/simulator 304 - 6ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 09:57:35 [INFO]: GET /api/tenants/domain/gastrobar-baltium.com 200 - 125ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 09:57:35 [INFO]: GET /api/tenants/domain/gastrobar-baltium.com 304 - 8ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 09:57:38 [INFO]: GET /api/notifications/simulator 304 - 3ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 09:57:42 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 09:57:44 [INFO]: GET /api/notifications/simulator 304 - 6ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 09:58:07 [INFO]: User logged in: admin@baltium.com | Metadata: {"metadata":{}}
+2026-07-17 09:58:07 [INFO]: POST /api/auth/login 200 - 992ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 09:58:08 [INFO]: Client connected via WebSockets to Tenant room: 38cd68d6-5682-4f3c-8773-44543c740299 | SocketID: v6-jEVCuyMJmUg2fAAAB | Metadata: {"metadata":{}}
+2026-07-17 09:58:08 [INFO]: GET /api/dashboard/stats 200 - 81ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 09:58:08 [INFO]: GET /api/dashboard/stats 304 - 204ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 09:58:08 [INFO]: GET /api/dashboard/stats 304 - 57ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 09:58:25 [INFO]: GET /api/tables 200 - 23ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 09:58:25 [INFO]: GET /api/tables 304 - 93ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 09:58:44 [INFO]: GET /api/reservations?date=2026-07-17 200 - 52ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 09:58:45 [INFO]: GET /api/reservations?date=2026-07-17 304 - 152ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 09:58:45 [INFO]: GET /api/tables 304 - 291ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 09:58:45 [INFO]: GET /api/tables 304 - 76ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 09:59:11 [INFO]: GET /api/clients 200 - 189ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 09:59:11 [INFO]: GET /api/clients 304 - 140ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 09:59:35 [INFO]: GET /api/waitlist 200 - 34ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 09:59:35 [INFO]: GET /api/tables 304 - 11ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 09:59:35 [INFO]: GET /api/waitlist 304 - 18ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 09:59:35 [INFO]: GET /api/tables 304 - 107ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 09:59:58 [INFO]: GET /api/auth/me 200 - 68ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 09:59:58 [INFO]: GET /api/auth/me 304 - 158ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 09:59:58 [INFO]: GET /api/tenants/38cd68d6-5682-4f3c-8773-44543c740299 200 - 121ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 09:59:58 [INFO]: GET /api/tenants/38cd68d6-5682-4f3c-8773-44543c740299 304 - 98ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 10:09:45 [INFO]: =========================================================== | Metadata: {"metadata":{}}
+2026-07-17 10:09:45 [INFO]:   Baltium Reservas backend running in development mode | Metadata: {"metadata":{}}
+2026-07-17 10:09:45 [INFO]:   Server listening on http://localhost:3001 | Metadata: {"metadata":{}}
+2026-07-17 10:09:45 [INFO]:   Socket.io real-time engine running | Metadata: {"metadata":{}}
+2026-07-17 10:09:45 [INFO]: =========================================================== | Metadata: {"metadata":{}}
+2026-07-17 10:09:46 [INFO]: Client connected via WebSockets to Tenant room: 38cd68d6-5682-4f3c-8773-44543c740299 | SocketID: 09NrdtAQgM3KXm6VAAAB | Metadata: {"metadata":{}}
+2026-07-17 10:09:51 [INFO]: =========================================================== | Metadata: {"metadata":{}}
+2026-07-17 10:09:51 [INFO]:   Baltium Reservas backend running in development mode | Metadata: {"metadata":{}}
+2026-07-17 10:09:51 [INFO]:   Server listening on http://localhost:3001 | Metadata: {"metadata":{}}
+2026-07-17 10:09:51 [INFO]:   Socket.io real-time engine running | Metadata: {"metadata":{}}
+2026-07-17 10:09:51 [INFO]: =========================================================== | Metadata: {"metadata":{}}
+2026-07-17 10:09:51 [INFO]: Client connected via WebSockets to Tenant room: 38cd68d6-5682-4f3c-8773-44543c740299 | SocketID: u0_0b8QDM_N45KEeAAAB | Metadata: {"metadata":{}}
+2026-07-17 10:10:01 [INFO]: =========================================================== | Metadata: {"metadata":{}}
+2026-07-17 10:10:01 [INFO]:   Baltium Reservas backend running in development mode | Metadata: {"metadata":{}}
+2026-07-17 10:10:01 [INFO]:   Server listening on http://localhost:3001 | Metadata: {"metadata":{}}
+2026-07-17 10:10:01 [INFO]:   Socket.io real-time engine running | Metadata: {"metadata":{}}
+2026-07-17 10:10:01 [INFO]: =========================================================== | Metadata: {"metadata":{}}
+2026-07-17 10:10:01 [INFO]: Client connected via WebSockets to Tenant room: 38cd68d6-5682-4f3c-8773-44543c740299 | SocketID: KzmoCXx7Kh2NgVI2AAAB | Metadata: {"metadata":{}}
+2026-07-17 10:10:14 [INFO]: =========================================================== | Metadata: {"metadata":{}}
+2026-07-17 10:10:14 [INFO]:   Baltium Reservas backend running in development mode | Metadata: {"metadata":{}}
+2026-07-17 10:10:14 [INFO]:   Server listening on http://localhost:3001 | Metadata: {"metadata":{}}
+2026-07-17 10:10:14 [INFO]:   Socket.io real-time engine running | Metadata: {"metadata":{}}
+2026-07-17 10:10:14 [INFO]: =========================================================== | Metadata: {"metadata":{}}
+2026-07-17 10:10:14 [INFO]: Client connected via WebSockets to Tenant room: 38cd68d6-5682-4f3c-8773-44543c740299 | SocketID: 316gsZSNdi9n99vmAAAB | Metadata: {"metadata":{}}
+2026-07-17 10:10:27 [INFO]: =========================================================== | Metadata: {"metadata":{}}
+2026-07-17 10:10:27 [INFO]:   Baltium Reservas backend running in development mode | Metadata: {"metadata":{}}
+2026-07-17 10:10:27 [INFO]:   Server listening on http://localhost:3001 | Metadata: {"metadata":{}}
+2026-07-17 10:10:27 [INFO]:   Socket.io real-time engine running | Metadata: {"metadata":{}}
+2026-07-17 10:10:27 [INFO]: =========================================================== | Metadata: {"metadata":{}}
+2026-07-17 10:10:27 [INFO]: Client connected via WebSockets to Tenant room: 38cd68d6-5682-4f3c-8773-44543c740299 | SocketID: 0PItpQU203Q1_IcAAAAB | Metadata: {"metadata":{}}
+2026-07-17 10:10:33 [INFO]: =========================================================== | Metadata: {"metadata":{}}
+2026-07-17 10:10:33 [INFO]:   Baltium Reservas backend running in development mode | Metadata: {"metadata":{}}
+2026-07-17 10:10:33 [INFO]:   Server listening on http://localhost:3001 | Metadata: {"metadata":{}}
+2026-07-17 10:10:33 [INFO]:   Socket.io real-time engine running | Metadata: {"metadata":{}}
+2026-07-17 10:10:33 [INFO]: =========================================================== | Metadata: {"metadata":{}}
+2026-07-17 10:10:33 [INFO]: Client connected via WebSockets to Tenant room: 38cd68d6-5682-4f3c-8773-44543c740299 | SocketID: LP_l3qGQ_h9haM3LAAAB | Metadata: {"metadata":{}}
+2026-07-17 10:10:51 [INFO]: =========================================================== | Metadata: {"metadata":{}}
+2026-07-17 10:10:52 [INFO]:   Baltium Reservas backend running in development mode | Metadata: {"metadata":{}}
+2026-07-17 10:10:52 [INFO]:   Server listening on http://localhost:3001 | Metadata: {"metadata":{}}
+2026-07-17 10:10:52 [INFO]:   Socket.io real-time engine running | Metadata: {"metadata":{}}
+2026-07-17 10:10:52 [INFO]: =========================================================== | Metadata: {"metadata":{}}
+2026-07-17 10:10:52 [INFO]: Client connected via WebSockets to Tenant room: 38cd68d6-5682-4f3c-8773-44543c740299 | SocketID: IRGDY_rjKdnJksqIAAAB | Metadata: {"metadata":{}}
+2026-07-17 10:10:58 [INFO]: =========================================================== | Metadata: {"metadata":{}}
+2026-07-17 10:10:58 [INFO]:   Baltium Reservas backend running in development mode | Metadata: {"metadata":{}}
+2026-07-17 10:10:58 [INFO]:   Server listening on http://localhost:3001 | Metadata: {"metadata":{}}
+2026-07-17 10:10:58 [INFO]:   Socket.io real-time engine running | Metadata: {"metadata":{}}
+2026-07-17 10:10:58 [INFO]: =========================================================== | Metadata: {"metadata":{}}
+2026-07-17 10:10:58 [INFO]: Client connected via WebSockets to Tenant room: 38cd68d6-5682-4f3c-8773-44543c740299 | SocketID: L7LZ2Wi4de552bF6AAAB | Metadata: {"metadata":{}}
+2026-07-17 10:18:57 [INFO]: =========================================================== | Metadata: {"metadata":{}}
+2026-07-17 10:18:57 [INFO]:   Baltium Reservas backend running in development mode | Metadata: {"metadata":{}}
+2026-07-17 10:18:57 [INFO]:   Server listening on http://localhost:3001 | Metadata: {"metadata":{}}
+2026-07-17 10:18:57 [INFO]:   Socket.io real-time engine running | Metadata: {"metadata":{}}
+2026-07-17 10:18:57 [INFO]: =========================================================== | Metadata: {"metadata":{}}
+2026-07-17 10:18:59 [INFO]: Client connected via WebSockets to Tenant room: 38cd68d6-5682-4f3c-8773-44543c740299 | SocketID: 4dB7XqezbiY6KYkVAAAB | Metadata: {"metadata":{}}
+2026-07-17 10:29:00 [INFO]: Client disconnected | SocketID: 4dB7XqezbiY6KYkVAAAB | Metadata: {"metadata":{}}
+2026-07-17 10:29:04 [WARN]: Token validation failed: jwt expired | Metadata: {"metadata":{}}
+2026-07-17 10:29:04 [INFO]: GET /api/auth/me 403 - 30ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 10:29:04 [WARN]: Token validation failed: jwt expired | Metadata: {"metadata":{}}
+2026-07-17 10:29:04 [INFO]: GET /api/auth/me 403 - 17ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 10:29:08 [INFO]: User logged in: admin@baltium.com | Metadata: {"metadata":{}}
+2026-07-17 10:29:08 [INFO]: POST /api/auth/login 200 - 772ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 10:29:08 [INFO]: Client connected via WebSockets to Tenant room: 4f22cabd-ccea-4b22-b329-ad7a7cbe1716 | SocketID: Aqn0IPiql3z1mliIAAAD | Metadata: {"metadata":{}}
+2026-07-17 10:29:08 [INFO]: GET /api/dashboard/stats 200 - 363ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 10:29:09 [INFO]: GET /api/dashboard/stats 304 - 195ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 10:29:09 [INFO]: GET /api/dashboard/stats 304 - 61ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 10:29:51 [INFO]: GET /api/tables 200 - 9ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 10:29:51 [INFO]: GET /api/tables 304 - 9ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 10:30:07 [INFO]: GET /api/reservations?date=2026-07-17 200 - 27ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 10:30:07 [INFO]: GET /api/tables 304 - 24ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 10:30:07 [INFO]: GET /api/reservations?date=2026-07-17 304 - 14ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 10:30:07 [INFO]: GET /api/tables 304 - 19ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 10:30:17 [INFO]: GET /api/waitlist 200 - 10ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 10:30:17 [INFO]: GET /api/tables 304 - 19ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 10:30:17 [INFO]: GET /api/waitlist 304 - 13ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 10:30:17 [INFO]: GET /api/tables 304 - 18ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 10:30:20 [INFO]: GET /api/menu 400 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 10:30:20 [INFO]: GET /api/menu 400 - 3ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 10:30:33 [INFO]: GET /api/auth/me 200 - 17ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 10:30:33 [INFO]: GET /api/auth/me 304 - 13ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 10:30:33 [INFO]: GET /api/tenants/4f22cabd-ccea-4b22-b329-ad7a7cbe1716 200 - 6ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 10:30:33 [INFO]: GET /api/tenants/4f22cabd-ccea-4b22-b329-ad7a7cbe1716 304 - 8ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 10:31:35 [INFO]: GET /api/dashboard/stats 304 - 14ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 10:31:35 [INFO]: GET /api/dashboard/stats 304 - 17ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 10:32:17 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 10:32:17 [INFO]: GET /api/tenants/domain/gastrobar-baltium.com 200 - 24ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 10:32:17 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 10:32:17 [INFO]: GET /api/tenants/domain/gastrobar-baltium.com 304 - 34ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 10:32:17 [INFO]: GET /api/auth/me 304 - 32ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 10:32:17 [INFO]: GET /api/auth/me 304 - 14ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 10:32:17 [INFO]: GET /api/menu?tenantId=4f22cabd-ccea-4b22-b329-ad7a7cbe1716 200 - 13ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 10:32:17 [INFO]: Client connected via WebSockets to Tenant room: 4f22cabd-ccea-4b22-b329-ad7a7cbe1716 | SocketID: LlEaf3OsMiDWFIGhAAAG | Metadata: {"metadata":{}}
+2026-07-17 10:32:20 [INFO]: GET /api/notifications/simulator 304 - 4ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 10:32:23 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 10:32:26 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 10:32:29 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 10:32:32 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 10:32:35 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 10:32:38 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 10:32:41 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 10:32:44 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 10:32:47 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 10:32:50 [INFO]: GET /api/notifications/simulator 304 - 3ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 10:32:53 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 10:32:56 [INFO]: GET /api/notifications/simulator 304 - 3ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 10:32:59 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 10:33:02 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 10:33:05 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 10:33:08 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 10:33:11 [INFO]: GET /api/notifications/simulator 304 - 3ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 10:33:14 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 10:33:17 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 10:33:20 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 10:33:23 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 10:33:26 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 10:33:29 [INFO]: GET /api/notifications/simulator 304 - 4ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 10:33:32 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 10:33:35 [INFO]: GET /api/notifications/simulator 304 - 3ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 10:33:38 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 10:33:41 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 10:33:45 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 10:33:48 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 10:33:50 [INFO]: GET /api/tables 304 - 10ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 10:33:50 [INFO]: GET /api/tables 304 - 10ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 10:33:51 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 10:33:52 [INFO]: GET /api/reservations?date=2026-07-17 304 - 15ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 10:33:52 [INFO]: GET /api/tables 304 - 18ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 10:33:52 [INFO]: GET /api/reservations?date=2026-07-17 304 - 13ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 10:33:52 [INFO]: GET /api/tables 304 - 15ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 10:33:54 [INFO]: GET /api/clients 200 - 24ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 10:33:54 [INFO]: GET /api/clients 304 - 8ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 10:33:54 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 10:33:57 [INFO]: GET /api/notifications/simulator 304 - 0ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 10:33:58 [INFO]: GET /api/waitlist 304 - 8ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 10:33:58 [INFO]: GET /api/tables 304 - 14ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 10:33:58 [INFO]: GET /api/waitlist 304 - 10ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 10:33:58 [INFO]: GET /api/tables 304 - 17ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 10:34:00 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 10:34:00 [INFO]: GET /api/menu 400 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 10:34:00 [INFO]: GET /api/menu 400 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 10:34:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 10:34:03 [INFO]: GET /api/auth/me 304 - 20ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 10:34:03 [INFO]: GET /api/auth/me 304 - 18ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 10:34:03 [INFO]: GET /api/tenants/4f22cabd-ccea-4b22-b329-ad7a7cbe1716 304 - 19ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 10:34:03 [INFO]: GET /api/tenants/4f22cabd-ccea-4b22-b329-ad7a7cbe1716 304 - 8ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 10:34:06 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 10:34:09 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 10:34:12 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 10:34:15 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 10:34:18 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 10:34:18 [INFO]: GET /api/dashboard/stats 304 - 14ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 10:34:18 [INFO]: GET /api/dashboard/stats 304 - 18ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 10:34:21 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 10:34:24 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 10:34:27 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 10:34:30 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 10:34:33 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 10:34:36 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 10:34:39 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 10:35:03 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 10:36:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 10:45:03 [INFO]: GET /api/notifications/simulator 200 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 10:46:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 10:47:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 10:48:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 10:49:03 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 10:50:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 10:51:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 10:52:03 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 10:53:03 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 10:54:03 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 11:57:00 [INFO]: =========================================================== | Metadata: {"metadata":{}}
+2026-07-17 11:57:00 [INFO]:   Baltium Reservas backend running in development mode | Metadata: {"metadata":{}}
+2026-07-17 11:57:00 [INFO]:   Server listening on http://localhost:3001 | Metadata: {"metadata":{}}
+2026-07-17 11:57:00 [INFO]:   Socket.io real-time engine running | Metadata: {"metadata":{}}
+2026-07-17 11:57:00 [INFO]: =========================================================== | Metadata: {"metadata":{}}
+2026-07-17 11:57:00 [INFO]: Client connected via WebSockets to Tenant room: 4f22cabd-ccea-4b22-b329-ad7a7cbe1716 | SocketID: B5kEmJX6aOnaW6d2AAAB | Metadata: {"metadata":{}}
+2026-07-17 11:57:00 [INFO]: GET /api/notifications/simulator 304 - 9ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 11:57:03 [INFO]: GET /api/notifications/simulator 304 - 4ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 11:57:06 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 11:57:09 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 11:57:12 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 11:57:15 [INFO]: GET /api/notifications/simulator 304 - 3ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 11:57:18 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 11:57:21 [INFO]: GET /api/notifications/simulator 304 - 3ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 11:57:24 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 11:57:27 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 11:57:30 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 11:57:33 [INFO]: GET /api/notifications/simulator 304 - 3ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 11:57:36 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 11:57:39 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 11:57:42 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 11:57:56 [INFO]: GET /api/notifications/simulator 304 - 3ms - IP: ::ffff:127.0.0.1 | Metadata: {"metadata":{}}
+2026-07-17 11:57:59 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::ffff:127.0.0.1 | Metadata: {"metadata":{}}
+2026-07-17 11:58:03 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::ffff:127.0.0.1 | Metadata: {"metadata":{}}
+2026-07-17 11:58:06 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::ffff:127.0.0.1 | Metadata: {"metadata":{}}
+2026-07-17 11:58:09 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::ffff:127.0.0.1 | Metadata: {"metadata":{}}
+2026-07-17 11:58:12 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::ffff:127.0.0.1 | Metadata: {"metadata":{}}
+2026-07-17 11:58:15 [INFO]: GET /api/notifications/simulator 304 - 4ms - IP: ::ffff:127.0.0.1 | Metadata: {"metadata":{}}
+2026-07-17 11:58:18 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::ffff:127.0.0.1 | Metadata: {"metadata":{}}
+2026-07-17 11:58:21 [INFO]: GET /api/notifications/simulator 304 - 3ms - IP: ::ffff:127.0.0.1 | Metadata: {"metadata":{}}
+2026-07-17 11:58:24 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::ffff:127.0.0.1 | Metadata: {"metadata":{}}
+2026-07-17 11:58:27 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::ffff:127.0.0.1 | Metadata: {"metadata":{}}
+2026-07-17 11:58:30 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::ffff:127.0.0.1 | Metadata: {"metadata":{}}
+2026-07-17 11:58:33 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::ffff:127.0.0.1 | Metadata: {"metadata":{}}
+2026-07-17 11:58:36 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::ffff:127.0.0.1 | Metadata: {"metadata":{}}
+2026-07-17 11:58:39 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::ffff:127.0.0.1 | Metadata: {"metadata":{}}
+2026-07-17 11:58:42 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::ffff:127.0.0.1 | Metadata: {"metadata":{}}
+2026-07-17 11:58:45 [INFO]: GET /api/notifications/simulator 304 - 3ms - IP: ::ffff:127.0.0.1 | Metadata: {"metadata":{}}
+2026-07-17 11:58:48 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::ffff:127.0.0.1 | Metadata: {"metadata":{}}
+2026-07-17 11:58:51 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::ffff:127.0.0.1 | Metadata: {"metadata":{}}
+2026-07-17 11:58:54 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::ffff:127.0.0.1 | Metadata: {"metadata":{}}
+2026-07-17 11:58:57 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::ffff:127.0.0.1 | Metadata: {"metadata":{}}
+2026-07-17 11:59:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:00:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:01:03 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:02:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:02:28 [INFO]: GET / 200 - 20ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:02:28 [INFO]: GET /assets/index-DmF6PEZ7.css 200 - 9ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:02:28 [INFO]: GET /assets/index-D4dhvLtt.js 200 - 22ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:02:30 [INFO]: GET /api/notifications/simulator 200 - 4ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:02:30 [INFO]: GET /api/tenants/domain/gastrobar-baltium.com 200 - 160ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:02:30 [INFO]: GET /api/menu?tenantId=4f22cabd-ccea-4b22-b329-ad7a7cbe1716 200 - 70ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:02:33 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:02:36 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:02:39 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:02:42 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:02:45 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:02:48 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:02:51 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:02:54 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:02:57 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:03:00 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:03:03 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:03:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:03:06 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:03:09 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:03:12 [INFO]: GET /api/notifications/simulator 304 - 3ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:03:15 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:03:18 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:03:21 [INFO]: GET /api/notifications/simulator 304 - 3ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:03:24 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:03:24 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:03:27 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:03:27 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:03:30 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:03:30 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:03:33 [INFO]: GET /api/notifications/simulator 304 - 3ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:03:33 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:03:36 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:03:36 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:03:39 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:03:39 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:03:42 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:03:42 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:03:45 [INFO]: GET /api/notifications/simulator 304 - 3ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:03:45 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:03:48 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:03:48 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:03:51 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:03:51 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:03:54 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:03:54 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:03:57 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:03:57 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:04:00 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:04:00 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:04:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:04:03 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:04:06 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:04:06 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:04:09 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:04:09 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:04:12 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:04:12 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:04:15 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:04:15 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:04:18 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:04:18 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:04:21 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:04:21 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:04:24 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:04:24 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:04:35 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:04:37 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:04:39 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:04:39 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:04:42 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:04:42 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:04:45 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:04:45 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:04:48 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:04:48 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:04:48 [INFO]: GET /login 200 - 8ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:04:48 [INFO]: GET /assets/index-D4dhvLtt.js 304 - 4ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:04:48 [INFO]: GET /assets/index-DmF6PEZ7.css 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:04:51 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:04:54 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:08:34 [INFO]: =========================================================== | Metadata: {"metadata":{}}
+2026-07-17 12:08:34 [INFO]:   Baltium Reservas backend running in development mode | Metadata: {"metadata":{}}
+2026-07-17 12:08:34 [INFO]:   Server listening on http://localhost:3001 | Metadata: {"metadata":{}}
+2026-07-17 12:08:34 [INFO]:   Socket.io real-time engine running | Metadata: {"metadata":{}}
+2026-07-17 12:08:34 [INFO]: =========================================================== | Metadata: {"metadata":{}}
+2026-07-17 12:08:35 [INFO]: GET /api/notifications/simulator 200 - 148ms - IP: ::ffff:127.0.0.1 | Metadata: {"metadata":{}}
+2026-07-17 12:08:35 [INFO]: Client connected via WebSockets to Tenant room: 4f22cabd-ccea-4b22-b329-ad7a7cbe1716 | SocketID: XVywZ-KPvQ8s6QTXAAAB | Metadata: {"metadata":{}}
+2026-07-17 12:09:03 [INFO]: GET /api/notifications/simulator 304 - 6ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:09:45 [INFO]: GET /api/notifications/simulator 304 - 3ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:09:45 [INFO]: Client disconnected | SocketID: XVywZ-KPvQ8s6QTXAAAB | Metadata: {"metadata":{}}
+2026-07-17 12:10:27 [INFO]: =========================================================== | Metadata: {"metadata":{}}
+2026-07-17 12:10:27 [INFO]:   Baltium Reservas backend running in development mode | Metadata: {"metadata":{}}
+2026-07-17 12:10:27 [INFO]:   Server listening on http://localhost:3001 | Metadata: {"metadata":{}}
+2026-07-17 12:10:27 [INFO]:   Socket.io real-time engine running | Metadata: {"metadata":{}}
+2026-07-17 12:10:27 [INFO]: =========================================================== | Metadata: {"metadata":{}}
+2026-07-17 12:10:57 [INFO]: GET /login 200 - 25ms - IP: ::ffff:127.0.0.1 | Metadata: {"metadata":{}}
+2026-07-17 12:10:57 [INFO]: GET /assets/index-D4dhvLtt.js 304 - 7ms - IP: ::ffff:127.0.0.1 | Metadata: {"metadata":{}}
+2026-07-17 12:10:57 [INFO]: GET /assets/index-DmF6PEZ7.css 304 - 10ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:11:20 [INFO]: User logged in: admin@baltium.com | Metadata: {"metadata":{}}
+2026-07-17 12:11:20 [INFO]: POST /api/auth/login 200 - 351ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:11:20 [INFO]: Client connected via WebSockets to Tenant room: 4f22cabd-ccea-4b22-b329-ad7a7cbe1716 | SocketID: HxGFqdJsspLrcjeJAAAB | Metadata: {"metadata":{}}
+2026-07-17 12:11:20 [INFO]: GET /api/dashboard/stats 200 - 109ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:11:20 [INFO]: GET /api/dashboard/stats 304 - 50ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:11:55 [INFO]: GET /api/auth/me 200 - 18ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:11:55 [INFO]: GET /api/tenants/4f22cabd-ccea-4b22-b329-ad7a7cbe1716 200 - 19ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:12:47 [INFO]: GET /api/menu 400 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:16:33 [INFO]: GET /menu 200 - 7ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:16:33 [INFO]: Client disconnected | SocketID: HxGFqdJsspLrcjeJAAAB | Metadata: {"metadata":{}}
+2026-07-17 12:16:33 [INFO]: GET /assets/index-D4dhvLtt.js 304 - 5ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:16:33 [INFO]: GET /assets/index-DmF6PEZ7.css 304 - 4ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:16:35 [INFO]: GET /api/auth/me 404 - 13ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:16:38 [INFO]: User logged in: admin@baltium.com | Metadata: {"metadata":{}}
+2026-07-17 12:16:38 [INFO]: POST /api/auth/login 200 - 165ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:16:38 [INFO]: Client connected via WebSockets to Tenant room: 12cb684f-ed02-49bb-be57-337ea9bb4497 | SocketID: -8hxhxb6ETxJqfMgAAAD | Metadata: {"metadata":{}}
+2026-07-17 12:16:38 [INFO]: GET /api/dashboard/stats 200 - 38ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:16:38 [INFO]: GET /api/dashboard/stats 304 - 37ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:17:53 [INFO]: GET /api/auth/me 200 - 37ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:17:53 [INFO]: GET /api/tenants/12cb684f-ed02-49bb-be57-337ea9bb4497 200 - 14ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:17:58 [INFO]: GET /api/menu 400 - 3ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:18:07 [INFO]: GET /menu 304 - 3ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:18:07 [INFO]: Client disconnected | SocketID: -8hxhxb6ETxJqfMgAAAD | Metadata: {"metadata":{}}
+2026-07-17 12:18:07 [INFO]: GET /assets/index-D4dhvLtt.js 304 - 8ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:18:07 [INFO]: GET /assets/index-DmF6PEZ7.css 304 - 3ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:18:08 [INFO]: GET /api/auth/me 304 - 17ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:18:08 [INFO]: GET /api/menu 400 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:18:08 [INFO]: Client connected via WebSockets to Tenant room: 12cb684f-ed02-49bb-be57-337ea9bb4497 | SocketID: GDkQA8f8WZ8B0F8iAAAF | Metadata: {"metadata":{}}
+2026-07-17 12:18:13 [INFO]: GET /api/dashboard/stats 304 - 41ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:18:15 [INFO]: GET /api/dashboard/stats 304 - 16ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:18:17 [INFO]: GET /api/dashboard/stats 304 - 12ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:18:18 [INFO]: GET /api/dashboard/stats 304 - 11ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:18:19 [INFO]: GET /api/dashboard/stats 304 - 13ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:19:08 [INFO]: =========================================================== | Metadata: {"metadata":{}}
+2026-07-17 12:19:08 [INFO]:   Baltium Reservas backend running in development mode | Metadata: {"metadata":{}}
+2026-07-17 12:19:08 [INFO]:   Server listening on http://localhost:3001 | Metadata: {"metadata":{}}
+2026-07-17 12:19:08 [INFO]:   Socket.io real-time engine running | Metadata: {"metadata":{}}
+2026-07-17 12:19:08 [INFO]: =========================================================== | Metadata: {"metadata":{}}
+2026-07-17 12:19:14 [INFO]: Client connected via WebSockets to Tenant room: 12cb684f-ed02-49bb-be57-337ea9bb4497 | SocketID: I-9w5-oWwh_WOYwTAAAB | Metadata: {"metadata":{}}
+2026-07-17 12:20:04 [INFO]: GET /dashboard 200 - 24ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:20:04 [INFO]: Client disconnected | SocketID: I-9w5-oWwh_WOYwTAAAB | Metadata: {"metadata":{}}
+2026-07-17 12:20:04 [INFO]: GET /assets/index-D4dhvLtt.js 304 - 8ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:20:04 [INFO]: GET /assets/index-DmF6PEZ7.css 304 - 11ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:20:05 [INFO]: GET /api/auth/me 304 - 48ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:20:05 [INFO]: GET /api/dashboard/stats 304 - 23ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:20:05 [INFO]: Client connected via WebSockets to Tenant room: 12cb684f-ed02-49bb-be57-337ea9bb4497 | SocketID: CLr2WeVTlSFP_YmGAAAD | Metadata: {"metadata":{}}
+2026-07-17 12:20:05 [INFO]: GET /api/dashboard/stats 304 - 43ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:20:08 [INFO]: GET /api/dashboard/stats 304 - 17ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:20:17 [INFO]: GET /api/dashboard/stats 304 - 15ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:20:35 [INFO]: GET /dashboard 304 - 3ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:20:35 [INFO]: Client disconnected | SocketID: CLr2WeVTlSFP_YmGAAAD | Metadata: {"metadata":{}}
+2026-07-17 12:20:35 [INFO]: GET /assets/index-D4dhvLtt.js 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:20:35 [INFO]: GET /assets/index-DmF6PEZ7.css 304 - 3ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:20:35 [INFO]: GET /api/auth/me 304 - 16ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:20:35 [INFO]: GET /api/dashboard/stats 304 - 15ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:20:35 [INFO]: GET /api/dashboard/stats 304 - 36ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:20:35 [INFO]: Client connected via WebSockets to Tenant room: 12cb684f-ed02-49bb-be57-337ea9bb4497 | SocketID: nHI9lvxCRXnw1e1sAAAF | Metadata: {"metadata":{}}
+2026-07-17 12:20:42 [INFO]: GET /api/menu 400 - 4ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:20:46 [INFO]: GET /restaurant/gastrobar-baltium 200 - 11ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:20:46 [INFO]: GET /assets/index-D4dhvLtt.js 304 - 3ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:20:46 [INFO]: GET /assets/index-DmF6PEZ7.css 304 - 3ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:20:47 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:20:47 [INFO]: GET /api/tenants/domain/gastrobar-baltium.com 200 - 23ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:20:47 [INFO]: GET /api/auth/me 304 - 27ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:20:48 [INFO]: GET /api/menu?tenantId=12cb684f-ed02-49bb-be57-337ea9bb4497 200 - 6ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:20:48 [INFO]: Client connected via WebSockets to Tenant room: 12cb684f-ed02-49bb-be57-337ea9bb4497 | SocketID: BfVrXzXXWKDCORrhAAAH | Metadata: {"metadata":{}}
+2026-07-17 12:20:50 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:20:53 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:20:56 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:20:59 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:21:02 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:21:05 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:21:08 [INFO]: GET /api/notifications/simulator 304 - 3ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:21:11 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:21:14 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:21:18 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:21:21 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:21:24 [INFO]: GET /api/notifications/simulator 304 - 3ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:21:27 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:21:30 [INFO]: GET /api/notifications/simulator 304 - 3ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:21:33 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:21:36 [INFO]: GET /api/notifications/simulator 304 - 3ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:21:39 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:21:41 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:21:44 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:21:45 [INFO]: GET /restaurant/gastrobar-baltium 304 - 3ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:21:45 [INFO]: Client disconnected | SocketID: BfVrXzXXWKDCORrhAAAH | Metadata: {"metadata":{}}
+2026-07-17 12:21:45 [INFO]: GET /assets/index-D4dhvLtt.js 304 - 3ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:21:45 [INFO]: GET /assets/index-DmF6PEZ7.css 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:21:45 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:21:45 [INFO]: GET /api/tenants/domain/gastrobar-baltium.com 304 - 28ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:21:45 [INFO]: GET /api/auth/me 304 - 66ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:21:46 [INFO]: GET /api/menu?tenantId=12cb684f-ed02-49bb-be57-337ea9bb4497 304 - 43ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:21:46 [INFO]: Client connected via WebSockets to Tenant room: 12cb684f-ed02-49bb-be57-337ea9bb4497 | SocketID: 81y-kbJV5WR9SQxOAAAJ | Metadata: {"metadata":{}}
+2026-07-17 12:21:48 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:21:51 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:21:53 [INFO]: GET /menu 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:21:53 [INFO]: Client disconnected | SocketID: nHI9lvxCRXnw1e1sAAAF | Metadata: {"metadata":{}}
+2026-07-17 12:21:53 [INFO]: GET /assets/index-D4dhvLtt.js 304 - 3ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:21:54 [INFO]: GET /assets/index-DmF6PEZ7.css 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:21:54 [INFO]: GET /api/auth/me 304 - 16ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:21:55 [INFO]: GET /api/menu 400 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:21:55 [INFO]: Client connected via WebSockets to Tenant room: 12cb684f-ed02-49bb-be57-337ea9bb4497 | SocketID: wN08ozbeua47v_akAAAL | Metadata: {"metadata":{}}
+2026-07-17 12:21:55 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:21:58 [INFO]: GET /api/notifications/simulator 304 - 3ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:22:01 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:22:04 [INFO]: GET /api/notifications/simulator 304 - 3ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:22:07 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:22:10 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:22:13 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:22:16 [INFO]: GET /api/notifications/simulator 304 - 0ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:22:19 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:22:22 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:22:25 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:22:28 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:22:31 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:22:34 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:22:37 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:22:40 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:22:43 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:22:46 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:22:49 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:22:52 [INFO]: GET /api/dashboard/stats 304 - 22ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:23:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:24:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:25:03 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:26:03 [INFO]: GET /api/clients 200 - 12ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:26:03 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:26:08 [INFO]: GET /api/clients/79ea8f49-97d4-496a-ad81-4ec69b8c2d0d/history 200 - 11ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:26:12 [INFO]: GET /api/reservations?date=2026-07-17 200 - 46ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:26:12 [INFO]: GET /api/tables 200 - 46ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:26:13 [INFO]: GET /api/tables 304 - 15ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:26:15 [INFO]: GET /api/dashboard/stats 304 - 22ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:26:19 [INFO]: GET /api/dashboard/stats 304 - 16ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:26:20 [INFO]: GET /api/dashboard/stats 304 - 14ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:26:22 [INFO]: GET /dashboard 304 - 3ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:26:22 [INFO]: Client disconnected | SocketID: wN08ozbeua47v_akAAAL | Metadata: {"metadata":{}}
+2026-07-17 12:26:22 [INFO]: GET /assets/index-D4dhvLtt.js 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:26:22 [INFO]: GET /assets/index-DmF6PEZ7.css 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:26:22 [INFO]: GET /api/auth/me 304 - 11ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:26:22 [INFO]: GET /api/dashboard/stats 304 - 20ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:26:23 [INFO]: GET /api/dashboard/stats 304 - 11ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:26:23 [INFO]: Client connected via WebSockets to Tenant room: 12cb684f-ed02-49bb-be57-337ea9bb4497 | SocketID: 5w8ig84FcEk9k0Q2AAAN | Metadata: {"metadata":{}}
+2026-07-17 12:26:27 [INFO]: GET /api/auth/me 304 - 14ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:26:27 [INFO]: GET /api/tenants/12cb684f-ed02-49bb-be57-337ea9bb4497 304 - 8ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:27:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:28:03 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:28:04 [INFO]: GET /settings 200 - 5ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:28:04 [INFO]: Client disconnected | SocketID: 5w8ig84FcEk9k0Q2AAAN | Metadata: {"metadata":{}}
+2026-07-17 12:28:04 [INFO]: GET /assets/index-DmF6PEZ7.css 304 - 3ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:28:04 [INFO]: GET /assets/index-D4dhvLtt.js 304 - 11ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:36:03 [INFO]: GET /api/notifications/simulator 200 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:37:03 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:38:03 [INFO]: GET /api/notifications/simulator 304 - 3ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:39:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:40:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:41:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:41:09 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:41:10 [INFO]: GET /api/notifications/simulator 304 - 3ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:41:13 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:41:16 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:41:19 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:41:22 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:41:25 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:41:28 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:41:31 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:41:34 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:41:38 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:41:41 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:41:43 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:41:46 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:41:49 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:41:52 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:41:55 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:41:58 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:42:01 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:42:04 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:42:07 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:43:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:44:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:45:03 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:46:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:47:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:48:03 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:49:03 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:50:03 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:51:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:52:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:53:03 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:53:12 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:53:12 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:53:15 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:53:19 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 12:53:44 [INFO]: =========================================================== | Metadata: {"metadata":{}}
+2026-07-17 12:53:44 [INFO]:   Baltium Reservas backend running in development mode | Metadata: {"metadata":{}}
+2026-07-17 12:53:44 [INFO]:   Server listening on http://localhost:3001 | Metadata: {"metadata":{}}
+2026-07-17 12:53:44 [INFO]:   Socket.io real-time engine running | Metadata: {"metadata":{}}
+2026-07-17 12:53:44 [INFO]: =========================================================== | Metadata: {"metadata":{}}
+2026-07-17 12:53:44 [INFO]: GET /api/notifications/simulator 304 - 7ms - IP: ::ffff:127.0.0.1 | Metadata: {"metadata":{}}
+2026-07-17 12:53:44 [INFO]: Client connected via WebSockets to Tenant room: 12cb684f-ed02-49bb-be57-337ea9bb4497 | SocketID: yIvhvp5XxbK_h_gXAAAB | Metadata: {"metadata":{}}
+2026-07-17 12:53:46 [INFO]: GET /api/notifications/simulator 304 - 3ms - IP: ::ffff:127.0.0.1 | Metadata: {"metadata":{}}
+2026-07-17 12:53:49 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::ffff:127.0.0.1 | Metadata: {"metadata":{}}
+2026-07-17 12:53:52 [INFO]: GET /api/notifications/simulator 304 - 3ms - IP: ::ffff:127.0.0.1 | Metadata: {"metadata":{}}
+2026-07-17 12:53:55 [INFO]: GET /api/notifications/simulator 304 - 3ms - IP: ::ffff:127.0.0.1 | Metadata: {"metadata":{}}
+2026-07-17 13:02:10 [INFO]: =========================================================== | Metadata: {"metadata":{}}
+2026-07-17 13:02:10 [INFO]:   Baltium Reservas backend running in development mode | Metadata: {"metadata":{}}
+2026-07-17 13:02:10 [INFO]:   Server listening on http://localhost:3001 | Metadata: {"metadata":{}}
+2026-07-17 13:02:10 [INFO]:   Socket.io real-time engine running | Metadata: {"metadata":{}}
+2026-07-17 13:02:10 [INFO]: =========================================================== | Metadata: {"metadata":{}}
+2026-07-17 13:02:10 [INFO]: Client connected via WebSockets to Tenant room: 12cb684f-ed02-49bb-be57-337ea9bb4497 | SocketID: ssqYx5nuqjlfZ4b6AAAB | Metadata: {"metadata":{}}
+2026-07-17 13:03:03 [INFO]: GET /api/notifications/simulator 304 - 12ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:04:03 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:05:03 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:06:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:07:03 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:08:03 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:09:03 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:10:03 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:11:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:12:03 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:13:03 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:14:03 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:15:03 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:16:03 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:17:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:18:03 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:19:03 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:19:41 [INFO]: User logged in: admin@baltium.com | Metadata: {"metadata":{}}
+2026-07-17 13:19:41 [INFO]: POST /api/auth/login 200 - 260ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:19:41 [INFO]: Client connected via WebSockets to Tenant room: 12cb684f-ed02-49bb-be57-337ea9bb4497 | SocketID: jcHHom9YHP6O0RsAAAAD | Metadata: {"metadata":{}}
+2026-07-17 13:19:41 [INFO]: GET /api/dashboard/stats 304 - 37ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:19:41 [INFO]: GET /api/dashboard/stats 304 - 42ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:19:48 [INFO]: GET /api/auth/me 200 - 18ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:19:48 [INFO]: GET /api/tenants/12cb684f-ed02-49bb-be57-337ea9bb4497 304 - 11ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:19:50 [INFO]: GET /api/menu 400 - 4ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:19:58 [INFO]: GET /api/dashboard/stats 304 - 23ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:20:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:21:07 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:22:03 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:23:03 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:23:23 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:23:23 [INFO]: Client disconnected | SocketID: jcHHom9YHP6O0RsAAAAD | Metadata: {"metadata":{}}
+2026-07-17 13:23:24 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:23:25 [INFO]: Client disconnected | SocketID: ssqYx5nuqjlfZ4b6AAAB | Metadata: {"metadata":{}}
+2026-07-17 13:23:34 [INFO]: GET /login 304 - 12ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:23:34 [INFO]: GET /assets/index-D4dhvLtt.js 304 - 3ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:23:34 [INFO]: GET /assets/index-DmF6PEZ7.css 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:23:35 [INFO]: GET /api/auth/me 304 - 17ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:23:35 [INFO]: Client connected via WebSockets to Tenant room: 12cb684f-ed02-49bb-be57-337ea9bb4497 | SocketID: BA0s6FH6q5TiJM8xAAAF | Metadata: {"metadata":{}}
+2026-07-17 13:23:39 [INFO]: User logged in: admin@baltium.com | Metadata: {"metadata":{}}
+2026-07-17 13:23:39 [INFO]: POST /api/auth/login 200 - 164ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:23:39 [INFO]: Client disconnected | SocketID: BA0s6FH6q5TiJM8xAAAF | Metadata: {"metadata":{}}
+2026-07-17 13:23:39 [INFO]: Client connected via WebSockets to Tenant room: 12cb684f-ed02-49bb-be57-337ea9bb4497 | SocketID: rNy_6Tpe6E4vtMCyAAAH | Metadata: {"metadata":{}}
+2026-07-17 13:23:39 [INFO]: GET /api/dashboard/stats 304 - 33ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:23:39 [INFO]: GET /api/dashboard/stats 304 - 31ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:23:45 [INFO]: Client disconnected | SocketID: rNy_6Tpe6E4vtMCyAAAH | Metadata: {"metadata":{}}
+2026-07-17 13:24:23 [INFO]: GET /login 200 - 12ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:24:23 [INFO]: GET /assets/index-DmF6PEZ7.css 200 - 8ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:24:23 [INFO]: GET /assets/index-D4dhvLtt.js 200 - 20ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:24:24 [INFO]: GET /api/auth/me 200 - 19ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:24:24 [INFO]: Client connected via WebSockets to Tenant room: 12cb684f-ed02-49bb-be57-337ea9bb4497 | SocketID: YFYq1FYvCsfA44s3AAAJ | Metadata: {"metadata":{}}
+2026-07-17 13:24:34 [INFO]: User logged in: admin@baltium.com | Metadata: {"metadata":{}}
+2026-07-17 13:24:34 [INFO]: POST /api/auth/login 200 - 172ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:24:34 [INFO]: Client disconnected | SocketID: YFYq1FYvCsfA44s3AAAJ | Metadata: {"metadata":{}}
+2026-07-17 13:24:34 [INFO]: Client connected via WebSockets to Tenant room: 12cb684f-ed02-49bb-be57-337ea9bb4497 | SocketID: Fy-AKFst8cFjcEuTAAAL | Metadata: {"metadata":{}}
+2026-07-17 13:24:34 [INFO]: GET /api/dashboard/stats 200 - 31ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:24:34 [INFO]: GET /api/dashboard/stats 304 - 32ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:24:38 [INFO]: GET /api/dashboard/stats 304 - 11ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:24:38 [INFO]: GET /api/dashboard/stats 304 - 12ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:24:42 [INFO]: GET /api/auth/me 304 - 15ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:24:42 [INFO]: GET /api/tenants/12cb684f-ed02-49bb-be57-337ea9bb4497 200 - 7ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:24:42 [INFO]: GET /api/menu 400 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:24:48 [INFO]: GET /api/dashboard/stats 304 - 22ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:24:52 [INFO]: Client disconnected | SocketID: Fy-AKFst8cFjcEuTAAAL | Metadata: {"metadata":{}}
+2026-07-17 13:25:30 [INFO]: GET / 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:25:30 [INFO]: GET /assets/index-D4dhvLtt.js 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:25:30 [INFO]: GET /assets/index-DmF6PEZ7.css 304 - 4ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:25:32 [INFO]: GET /api/notifications/simulator 200 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:25:32 [INFO]: GET /api/tenants/domain/gastrobar-baltium.com 304 - 17ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:25:32 [INFO]: GET /api/auth/me 304 - 16ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:25:32 [INFO]: GET /api/menu?tenantId=12cb684f-ed02-49bb-be57-337ea9bb4497 304 - 20ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:25:32 [INFO]: Client connected via WebSockets to Tenant room: 12cb684f-ed02-49bb-be57-337ea9bb4497 | SocketID: tmWzWYkPOmV5EvaBAAAN | Metadata: {"metadata":{}}
+2026-07-17 13:25:35 [INFO]: GET /api/notifications/simulator 304 - 0ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:25:38 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:25:40 [INFO]: GET /assets/index-DmF6PEZ7.css 304 - 4ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:25:40 [INFO]: GET /.well-known/appspecific/com.chrome.devtools.json 200 - 5ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:25:42 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:25:44 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:25:47 [INFO]: GET /api/notifications/simulator 304 - 3ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:25:50 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:25:53 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:25:56 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:25:59 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:26:02 [INFO]: GET /api/notifications/simulator 200 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:26:05 [INFO]: GET /api/notifications/simulator 200 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:26:08 [INFO]: GET /api/notifications/simulator 200 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:26:11 [INFO]: GET /api/notifications/simulator 200 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:26:14 [INFO]: GET /api/notifications/simulator 200 - 4ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:26:17 [INFO]: GET /api/notifications/simulator 200 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:26:20 [INFO]: GET /api/notifications/simulator 200 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:26:23 [INFO]: GET /api/notifications/simulator 200 - 3ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:26:24 [INFO]: GET / 200 - 6ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:26:24 [INFO]: Client disconnected | SocketID: tmWzWYkPOmV5EvaBAAAN | Metadata: {"metadata":{}}
+2026-07-17 13:26:25 [INFO]: GET /assets/index-D4dhvLtt.js 200 - 7ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:26:25 [INFO]: GET /assets/index-DmF6PEZ7.css 200 - 11ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:26:25 [INFO]: GET /.well-known/appspecific/com.chrome.devtools.json 200 - 14ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:26:26 [INFO]: GET /api/notifications/simulator 200 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:26:26 [INFO]: GET /api/tenants/domain/gastrobar-baltium.com 200 - 81ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:26:26 [INFO]: GET /api/auth/me 200 - 138ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:26:27 [INFO]: GET /api/menu?tenantId=12cb684f-ed02-49bb-be57-337ea9bb4497 200 - 13ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:26:27 [INFO]: Client connected via WebSockets to Tenant room: 12cb684f-ed02-49bb-be57-337ea9bb4497 | SocketID: ZEb7cYsfHaf5dpHzAAAP | Metadata: {"metadata":{}}
+2026-07-17 13:26:29 [INFO]: GET /api/notifications/simulator 200 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:26:32 [INFO]: GET /api/notifications/simulator 200 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:26:35 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:26:36 [INFO]: GET / 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:26:36 [INFO]: Client disconnected | SocketID: ZEb7cYsfHaf5dpHzAAAP | Metadata: {"metadata":{}}
+2026-07-17 13:26:36 [INFO]: GET /assets/index-DmF6PEZ7.css 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:26:36 [INFO]: GET /assets/index-D4dhvLtt.js 304 - 5ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:26:37 [INFO]: GET /api/tenants/domain/gastrobar-baltium.com 304 - 9ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:26:37 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:26:37 [INFO]: GET /api/auth/me 304 - 30ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:26:37 [INFO]: GET /api/menu?tenantId=12cb684f-ed02-49bb-be57-337ea9bb4497 304 - 75ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:26:37 [INFO]: Client connected via WebSockets to Tenant room: 12cb684f-ed02-49bb-be57-337ea9bb4497 | SocketID: Ve-HJcWs_AP_sj85AAAR | Metadata: {"metadata":{}}
+2026-07-17 13:26:40 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:26:43 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:26:46 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:26:49 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:26:51 [INFO]: GET /login 304 - 3ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:26:51 [INFO]: GET /assets/index-D4dhvLtt.js 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:26:51 [INFO]: GET /assets/index-DmF6PEZ7.css 304 - 7ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:26:52 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:26:52 [INFO]: GET /api/auth/me 304 - 20ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:26:53 [INFO]: Client connected via WebSockets to Tenant room: 12cb684f-ed02-49bb-be57-337ea9bb4497 | SocketID: 7BMoazW7NNJ-mpTlAAAT | Metadata: {"metadata":{}}
+2026-07-17 13:26:55 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:26:58 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:27:01 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:27:04 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:27:07 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:27:10 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:27:12 [INFO]: User logged in: admin@baltium.com | Metadata: {"metadata":{}}
+2026-07-17 13:27:12 [INFO]: POST /api/auth/login 200 - 171ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:27:12 [INFO]: Client disconnected | SocketID: 7BMoazW7NNJ-mpTlAAAT | Metadata: {"metadata":{}}
+2026-07-17 13:27:12 [INFO]: Client connected via WebSockets to Tenant room: 12cb684f-ed02-49bb-be57-337ea9bb4497 | SocketID: DH2jWkSQy73Q0qR2AAAV | Metadata: {"metadata":{}}
+2026-07-17 13:27:12 [INFO]: GET /api/dashboard/stats 304 - 18ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:27:12 [INFO]: GET /api/dashboard/stats 304 - 25ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:27:13 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:27:16 [INFO]: GET /api/notifications/simulator 304 - 3ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:27:17 [INFO]: GET /assets/index-DmF6PEZ7.css 304 - 20ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:27:18 [INFO]: GET /.well-known/appspecific/com.chrome.devtools.json 200 - 8ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:27:44 [INFO]: Client disconnected | SocketID: DH2jWkSQy73Q0qR2AAAV | Metadata: {"metadata":{}}
+2026-07-17 13:28:27 [INFO]: Client disconnected | SocketID: Ve-HJcWs_AP_sj85AAAR | Metadata: {"metadata":{}}
+2026-07-17 13:29:27 [INFO]: =========================================================== | Metadata: {"metadata":{}}
+2026-07-17 13:29:27 [INFO]:   Baltium Reservas backend running in development mode | Metadata: {"metadata":{}}
+2026-07-17 13:29:27 [INFO]:   Server listening on http://localhost:3001 | Metadata: {"metadata":{}}
+2026-07-17 13:29:27 [INFO]:   Socket.io real-time engine running | Metadata: {"metadata":{}}
+2026-07-17 13:29:27 [INFO]: =========================================================== | Metadata: {"metadata":{}}
+2026-07-17 13:29:50 [INFO]: GET / 200 - 20ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:29:50 [INFO]: GET /assets/index-D4dhvLtt.js 304 - 6ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:29:50 [INFO]: GET /assets/index-DmF6PEZ7.css 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:29:50 [INFO]: GET /api/notifications/simulator 200 - 9ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:29:50 [INFO]: GET /api/tenants/domain/gastrobar-baltium.com 304 - 110ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:29:51 [INFO]: GET /api/auth/me 304 - 151ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:29:51 [INFO]: Client connected via WebSockets to Tenant room: 12cb684f-ed02-49bb-be57-337ea9bb4497 | SocketID: bH96rcMiFZWZrNf3AAAB | Metadata: {"metadata":{}}
+2026-07-17 13:29:51 [INFO]: GET /api/menu?tenantId=12cb684f-ed02-49bb-be57-337ea9bb4497 304 - 29ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:29:53 [INFO]: GET /api/notifications/simulator 304 - 3ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:29:57 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:30:00 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:30:03 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:30:06 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:30:09 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:30:12 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:30:15 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:30:18 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:30:21 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:30:24 [INFO]: GET /api/notifications/simulator 304 - 4ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:30:27 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:30:30 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:30:33 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:30:36 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:30:39 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:30:42 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:30:45 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:30:48 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:30:51 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:30:54 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:31:03 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:32:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:32:30 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:32:32 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:32:36 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:32:39 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:32:40 [INFO]: GET /login 200 - 10ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:32:40 [INFO]: GET /assets/index-D4dhvLtt.js 304 - 3ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:32:40 [INFO]: GET /assets/index-DmF6PEZ7.css 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:32:41 [INFO]: GET /api/auth/me 304 - 17ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:32:41 [INFO]: Client connected via WebSockets to Tenant room: 12cb684f-ed02-49bb-be57-337ea9bb4497 | SocketID: q_xE0VAOJ7akHKn7AAAD | Metadata: {"metadata":{}}
+2026-07-17 13:32:42 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:32:44 [INFO]: User logged in: admin@baltium.com | Metadata: {"metadata":{}}
+2026-07-17 13:32:44 [INFO]: POST /api/auth/login 200 - 198ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:32:45 [INFO]: Client disconnected | SocketID: q_xE0VAOJ7akHKn7AAAD | Metadata: {"metadata":{}}
+2026-07-17 13:32:45 [INFO]: Client connected via WebSockets to Tenant room: 12cb684f-ed02-49bb-be57-337ea9bb4497 | SocketID: DLG1Dz1xYPMtUB_GAAAF | Metadata: {"metadata":{}}
+2026-07-17 13:32:45 [INFO]: GET /api/dashboard/stats 304 - 39ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:32:45 [INFO]: GET /api/dashboard/stats 304 - 23ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:32:45 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:32:48 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:32:51 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:32:54 [INFO]: GET /api/notifications/simulator 304 - 3ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:32:57 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:33:00 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:33:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:33:06 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:33:09 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:33:12 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:33:15 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:33:18 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:33:21 [INFO]: GET /api/notifications/simulator 304 - 3ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:33:24 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:33:27 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:33:30 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:33:33 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:34:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:35:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:36:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:37:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:37:08 [INFO]: GET /dashboard 200 - 5ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:37:08 [INFO]: Client disconnected | SocketID: DLG1Dz1xYPMtUB_GAAAF | Metadata: {"metadata":{}}
+2026-07-17 13:37:08 [INFO]: GET /assets/index-D4dhvLtt.js 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:37:08 [INFO]: GET /assets/index-DmF6PEZ7.css 304 - 8ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:37:09 [INFO]: GET /api/auth/me 304 - 11ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:37:09 [INFO]: Client connected via WebSockets to Tenant room: 12cb684f-ed02-49bb-be57-337ea9bb4497 | SocketID: 2wxokjJ2IK9czOCMAAAH | Metadata: {"metadata":{}}
+2026-07-17 13:37:09 [INFO]: GET /api/dashboard/stats 304 - 41ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:37:09 [INFO]: GET /api/dashboard/stats 304 - 98ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:37:21 [INFO]: GET /api/menu 400 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:38:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:39:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:40:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:41:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:42:47 [INFO]: =========================================================== | Metadata: {"metadata":{}}
+2026-07-17 13:42:47 [INFO]:   Baltium Reservas backend running in development mode | Metadata: {"metadata":{}}
+2026-07-17 13:42:47 [INFO]:   Server listening on http://localhost:3001 | Metadata: {"metadata":{}}
+2026-07-17 13:42:47 [INFO]:   Socket.io real-time engine running | Metadata: {"metadata":{}}
+2026-07-17 13:42:47 [INFO]: =========================================================== | Metadata: {"metadata":{}}
+2026-07-17 13:42:47 [INFO]: Client connected via WebSockets to Tenant room: 12cb684f-ed02-49bb-be57-337ea9bb4497 | SocketID: J0elbdowRVRx5rDEAAAB | Metadata: {"metadata":{}}
+2026-07-17 13:42:51 [INFO]: Client connected via WebSockets to Tenant room: 12cb684f-ed02-49bb-be57-337ea9bb4497 | SocketID: t4Z8KvT_3dIfagGOAAAD | Metadata: {"metadata":{}}
+2026-07-17 13:43:03 [INFO]: GET /api/notifications/simulator 304 - 11ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:44:03 [INFO]: GET /api/notifications/simulator 304 - 4ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:44:09 [INFO]: GET /menu 200 - 19ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:44:10 [INFO]: Client disconnected | SocketID: t4Z8KvT_3dIfagGOAAAD | Metadata: {"metadata":{}}
+2026-07-17 13:44:10 [INFO]: GET /assets/index-BsZpIAOZ.css 200 - 9ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:44:10 [INFO]: GET /assets/index-Cbplji25.js 200 - 19ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:44:10 [INFO]: GET /api/auth/me 304 - 38ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:44:11 [INFO]: GET /api/menu 400 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:44:11 [INFO]: Client connected via WebSockets to Tenant room: 12cb684f-ed02-49bb-be57-337ea9bb4497 | SocketID: RqnVJplWpQzFFv4ZAAAF | Metadata: {"metadata":{}}
+2026-07-17 13:44:41 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:44:41 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:44:44 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:44:47 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:44:50 [INFO]: GET / 200 - 5ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:44:50 [INFO]: Client disconnected | SocketID: J0elbdowRVRx5rDEAAAB | Metadata: {"metadata":{}}
+2026-07-17 13:44:50 [INFO]: GET /assets/index-Cbplji25.js 304 - 6ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:44:50 [INFO]: GET /assets/index-BsZpIAOZ.css 304 - 12ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:44:51 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:44:51 [INFO]: GET /api/tenants/domain/gastrobar-baltium.com 304 - 42ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:44:51 [INFO]: GET /api/auth/me 304 - 46ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:44:52 [INFO]: GET /api/menu?tenantId=12cb684f-ed02-49bb-be57-337ea9bb4497 304 - 52ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:44:52 [INFO]: Client connected via WebSockets to Tenant room: 12cb684f-ed02-49bb-be57-337ea9bb4497 | SocketID: WDprfRUrUvbVF9aXAAAH | Metadata: {"metadata":{}}
+2026-07-17 13:44:54 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:44:57 [INFO]: GET /api/notifications/simulator 304 - 5ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:45:00 [INFO]: GET /api/dashboard/stats 304 - 32ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:45:01 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:45:04 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:45:07 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:45:10 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:45:13 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:45:16 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:45:19 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:45:22 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:45:25 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:45:28 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:45:31 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:45:34 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:45:37 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:45:40 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:45:43 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:45:46 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:45:49 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:45:52 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:45:55 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:45:58 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:46:03 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:47:03 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:48:03 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:49:03 [INFO]: GET /api/notifications/simulator 304 - 3ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:50:03 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:51:03 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:52:03 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:53:03 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:54:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:55:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:56:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:57:03 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:58:03 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 13:59:03 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 14:00:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 14:01:03 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 14:02:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 14:03:03 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 14:04:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 14:05:03 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 14:06:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 14:07:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 14:08:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 14:09:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 14:10:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 14:11:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 14:12:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 14:13:03 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 14:14:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 14:15:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 14:16:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 14:17:03 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 14:18:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 14:19:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 14:20:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 14:21:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 14:22:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 14:23:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 14:24:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 14:25:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 14:26:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 14:27:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 14:28:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 14:29:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 14:30:03 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 14:31:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 14:32:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 14:33:03 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 14:34:03 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 14:35:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 14:36:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 14:37:03 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 14:38:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 14:39:03 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 14:40:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 14:41:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 14:42:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 14:43:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 14:44:03 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 14:45:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 14:46:03 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 14:47:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 14:48:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 14:49:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 14:50:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 14:51:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 14:52:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 14:53:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 14:54:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 14:55:03 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 14:56:03 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 14:57:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 14:58:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 14:59:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 15:00:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 15:01:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 15:02:03 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 15:03:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 15:04:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 15:05:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 15:06:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 15:07:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 15:08:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 15:09:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 15:10:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 15:11:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 15:12:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 15:13:03 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 15:14:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 15:15:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 15:16:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 15:17:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 15:18:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 15:19:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 15:20:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 15:21:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 15:22:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 15:23:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 15:24:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 15:25:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 15:26:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 15:27:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 15:28:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 15:29:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 15:30:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 15:31:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 15:32:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 15:33:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 15:34:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 15:35:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 15:36:03 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 15:37:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 15:38:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 15:39:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 15:40:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 15:41:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 15:42:03 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 15:43:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 15:44:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 15:45:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 15:46:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 15:47:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 15:48:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 15:49:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 15:50:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 15:51:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 15:52:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 15:53:03 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 15:54:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 15:55:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 15:56:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 15:57:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 15:58:03 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 15:59:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 16:00:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 16:01:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 16:02:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 16:02:19 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 16:02:22 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 16:02:25 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 16:02:28 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 16:02:31 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 16:02:34 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 16:02:37 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 16:02:40 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 16:02:43 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 16:02:46 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 16:02:49 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 16:02:52 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 16:02:55 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 16:02:58 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 16:03:01 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 16:03:04 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 16:03:07 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 16:03:10 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 16:03:13 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 16:03:16 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 16:03:19 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 16:04:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 16:05:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 16:05:44 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 16:05:46 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 16:05:49 [INFO]: GET /api/notifications/simulator 304 - 3ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 16:05:52 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 16:05:55 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 16:05:58 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 16:06:01 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 16:06:04 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 16:06:07 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 16:06:10 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 16:06:13 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 16:06:16 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 16:06:19 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 16:06:22 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 16:06:25 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 16:06:28 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 16:06:31 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 16:06:34 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 16:06:37 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 16:06:40 [INFO]: GET /api/notifications/simulator 304 - 3ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 16:06:43 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 16:07:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 16:08:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 16:09:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 16:10:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 16:11:03 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 16:11:20 [INFO]: Client disconnected | SocketID: WDprfRUrUvbVF9aXAAAH | Metadata: {"metadata":{}}
+2026-07-17 16:11:20 [INFO]: Client disconnected | SocketID: RqnVJplWpQzFFv4ZAAAF | Metadata: {"metadata":{}}
+2026-07-17 18:46:42 [INFO]: Client connected via WebSockets to Tenant room: 12cb684f-ed02-49bb-be57-337ea9bb4497 | SocketID: xAvLMeJqOgXKUa-3AAAK | Metadata: {"metadata":{}}
+2026-07-17 18:46:42 [INFO]: Client connected via WebSockets to Tenant room: 12cb684f-ed02-49bb-be57-337ea9bb4497 | SocketID: zvqE2iKTl8otn0DTAAAL | Metadata: {"metadata":{}}
+2026-07-17 18:46:42 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 18:47:05 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 18:48:03 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 18:49:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 18:50:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 18:51:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 18:52:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 18:53:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 18:54:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 18:55:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 18:56:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 18:57:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 18:58:03 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 18:59:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 19:00:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 19:01:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 19:02:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 19:03:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 19:04:03 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 19:05:03 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 19:06:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 19:07:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 19:08:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 19:09:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 19:10:03 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 19:11:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 19:12:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 19:13:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 19:14:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 19:15:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 19:16:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 19:17:03 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 19:18:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 19:19:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 19:20:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 19:21:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 19:22:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 19:23:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 19:24:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 19:25:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 19:26:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 19:27:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 19:28:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 19:29:03 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 19:30:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 19:31:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 19:32:03 [INFO]: GET /api/notifications/simulator 304 - 2ms - IP: ::1 | Metadata: {"metadata":{}}
+2026-07-17 19:33:03 [INFO]: GET /api/notifications/simulator 304 - 1ms - IP: ::1 | Metadata: {"metadata":{}}

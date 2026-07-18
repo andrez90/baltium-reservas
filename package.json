@@ -1,0 +1,17 @@
+{
+  "name": "baltium-reservas-root",
+  "version": "1.0.0",
+  "private": true,
+  "description": "SaaS profesional de reservas de restaurantes y hoteles - Workspace unificado",
+  "workspaces": [
+    "backend",
+    "frontend"
+  ],
+  "scripts": {
+    "install:all": "npm install --workspaces --include-workspace-root",
+    "build:frontend": "npm run build --workspace=frontend",
+    "build:backend": "npm run build --workspace=backend",
+    "build": "npm run build:frontend && npm run build:backend",
+    "start": "npm run start --workspace=backend"
+  }
+}
