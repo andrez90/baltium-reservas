@@ -38,6 +38,10 @@ export const SettingsPage: React.FC = () => {
   const [metaPixelId, setMetaPixelId] = useState('');
   const [googleAnalyticsId, setGoogleAnalyticsId] = useState('');
   const [smtpHost, setSmtpHost] = useState('');
+  
+  // Localized configuration fields
+  const [address, setAddress] = useState('Altamira Palmira');
+  const [gallery, setGallery] = useState('');
 
   // Staff States
   const [staff, setStaff] = useState<StaffUser[]>([]);
@@ -83,6 +87,8 @@ export const SettingsPage: React.FC = () => {
         setMetaPixelId(conf.metaPixelId || '');
         setGoogleAnalyticsId(conf.googleAnalyticsId || '');
         setSmtpHost(conf.smtpHost || 'smtp.mailtrap.io');
+        setAddress(conf.address || 'Altamira Palmira');
+        setGallery(conf.gallery ? conf.gallery.join('\n') : '');
       } catch (e) {
         // ignore
       }
@@ -105,7 +111,9 @@ export const SettingsPage: React.FC = () => {
       const updatedConfig = {
         metaPixelId,
         googleAnalyticsId,
-        smtpHost
+        smtpHost,
+        address: address || 'Altamira Palmira',
+        gallery: gallery.split('\n').map(u => u.trim()).filter(Boolean)
       };
 
       await api.put(`/tenants/${tenant.id}`, {
@@ -197,6 +205,20 @@ export const SettingsPage: React.FC = () => {
                   <Input value={secondaryColor} onChange={(e) => setSecondaryColor(e.target.value)} className="font-mono text-xs uppercase" />
                 </div>
               </div>
+            </div>
+
+            <div className="grid grid-cols-1 gap-4">
+              <Input label="Ubicación / Dirección" placeholder="Ej. Altamira Palmira" value={address} onChange={(e) => setAddress(e.target.value)} required />
+            </div>
+
+            <div className="flex flex-col gap-1.5">
+              <label className="text-xs font-semibold text-foreground/80 uppercase">Galería de Fotos (Una URL por línea)</label>
+              <textarea
+                value={gallery}
+                onChange={(e) => setGallery(e.target.value)}
+                placeholder="https://images.unsplash.com/photo-1...\nhttps://images.unsplash.com/photo-2..."
+                className="w-full text-xs rounded-lg bg-panel border border-border px-3 py-2 text-white focus:outline-none focus:ring-2 focus:ring-primary min-h-[100px] font-mono placeholder-foreground/20"
+              />
             </div>
             
             <div className="border-t border-border/80 pt-4 mt-1 flex flex-col gap-1">

@@ -37,6 +37,10 @@ const dayTranslation: Record<string, string> = {
 
 const translateDay = (day: string): string => dayTranslation[day] ?? day;
 
+const API_BASE_URL = import.meta.env.VITE_API_URL 
+  ? import.meta.env.VITE_API_URL.replace('/api', '') 
+  : 'http://localhost:3001';
+
 export const LandingPage: React.FC = () => {
   const { slug } = useParams<{ slug: string }>();
   const { syncProfile } = useAuth();
@@ -46,6 +50,13 @@ export const LandingPage: React.FC = () => {
   const [tenantId, setTenantId] = useState('');
   const [logo, setLogo] = useState('');
   const [schedule, setSchedule] = useState<any[]>([]);
+  const [restaurantAddress, setRestaurantAddress] = useState('Altamira Palmira');
+  const [galleryImages, setGalleryImages] = useState<string[]>([
+    'https://images.unsplash.com/photo-1514933651103-005eec06c04b?auto=format&fit=crop&w=400&h=300&q=80',
+    'https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=400&h=300&q=80',
+    'https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=400&h=300&q=80',
+    'https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?auto=format&fit=crop&w=400&h=300&q=80'
+  ]);
 
   // Booking form states
   const [clientName, setClientName] = useState('');
@@ -76,12 +87,22 @@ export const LandingPage: React.FC = () => {
     const fetchTenant = async () => {
       const lookupDomain = slug ? `${slug}.com` : 'gastrobar-baltium.com';
       try {
-        const res = await axios.get(`http://localhost:3001/api/tenants/domain/${lookupDomain}`);
+        const res = await axios.get(`${API_BASE_URL}/api/tenants/domain/${lookupDomain}`);
         const t = res.data.tenant;
         setTenantId(t.id);
         setRestaurantName(t.name);
         setLogo(t.logo || '');
         setSchedule(JSON.parse(t.schedule || '[]'));
+        
+        try {
+          const conf = JSON.parse(t.configuration || '{}');
+          setRestaurantAddress(conf.address || 'Altamira Palmira');
+          if (conf.gallery && conf.gallery.length > 0) {
+            setGalleryImages(conf.gallery);
+          }
+        } catch (e) {
+          // ignore
+        }
         
         // Dynamically apply primary/secondary branding colors to CSS properties
         const root = document.documentElement;
@@ -98,7 +119,7 @@ export const LandingPage: React.FC = () => {
     const fetchMenu = async () => {
       if (tenantId) {
         try {
-          const res = await axios.get(`http://localhost:3001/api/menu?tenantId=${tenantId}`);
+          const res = await axios.get(`${API_BASE_URL}/api/menu?tenantId=${tenantId}`);
           setMenuItems(res.data.menu);
         } catch (e) {
           console.error(e);
@@ -112,7 +133,7 @@ export const LandingPage: React.FC = () => {
   useEffect(() => {
     const fetchSimulator = async () => {
       try {
-        const res = await axios.get('http://localhost:3001/api/notifications/simulator');
+        const res = await axios.get(`${API_BASE_URL}/api/notifications/simulator`);
         setSimulatorMessages(res.data.notifications);
       } catch (e) {
         // ignore errors
@@ -128,22 +149,23 @@ export const LandingPage: React.FC = () => {
     setIsLoading(true);
 
     const bookingPayload = {
+      tenantId,
       clientName,
       clientPhone,
       clientEmail,
-      dateTime: `${bookingDate}T${bookingTime}:00`,
-      partySize: Number(partySize),
+      bookingDate,
+      bookingTime,
+      partySize,
       zone,
       celebration,
       notes,
-      tenantId: tenantId || undefined,
       tablePurchased,
       purchaseAmount: tablePurchased ? Number(purchaseAmount) : null,
       purchasePaymentMethod: tablePurchased ? purchasePaymentMethod : null
     };
 
     try {
-      const res = await axios.post('http://localhost:3001/api/reservations', bookingPayload);
+      const res = await axios.post(`${API_BASE_URL}/api/reservations`, bookingPayload);
       setIsLoading(false);
       setBookingSuccess(res.data);
       
@@ -186,10 +208,10 @@ export const LandingPage: React.FC = () => {
               <span className="text-[10px] uppercase font-semibold text-primary">Reservas en línea</span>
             </div>
           </div>
-          <div className="flex items-center gap-4 text-xs font-semibold uppercase tracking-wider text-slate-400">
-            <a href="#galeria" className="hover:text-white transition-colors">Galería</a>
-            <a href="#horario" className="hover:text-white transition-colors">Horarios</a>
-            <a href="#reservar" className="px-3 py-1.5 bg-primary text-white rounded-lg hover:bg-primary-hover transition-colors">Reservar Ahora</a>
+          <div className="flex items-center gap-2 sm:gap-4 text-[10px] sm:text-xs font-semibold uppercase tracking-wider text-slate-400">
+            <a href="#galeria" className="hidden sm:inline-block hover:text-white transition-colors">Galería</a>
+            <a href="#horario" className="hidden sm:inline-block hover:text-white transition-colors">Horarios</a>
+            <a href="#reservar" className="px-2.5 py-1.5 sm:px-3 sm:py-1.5 bg-primary text-white rounded-lg hover:bg-primary-hover transition-colors text-[10px] sm:text-xs whitespace-nowrap">Reservar Ahora</a>
           </div>
         </div>
       </header>
@@ -222,9 +244,21 @@ export const LandingPage: React.FC = () => {
                   </div>
                 ))
               ) : (
-                <div className="flex justify-between">
-                  <span>Lunes a Domingo</span>
-                  <span>12:00 - 23:00</span>
+                <div className="flex flex-col gap-1.5">
+                  {[
+                    { day: 'Lunes', hours: '12:00 - 23:00' },
+                    { day: 'Martes', hours: '12:00 - 23:00' },
+                    { day: 'Miércoles', hours: '12:00 - 23:00' },
+                    { day: 'Jueves', hours: '12:00 - 23:00' },
+                    { day: 'Viernes', hours: '12:00 - 01:00' },
+                    { day: 'Sábado', hours: '12:00 - 01:00' },
+                    { day: 'Domingo', hours: '12:00 - 22:00' }
+                  ].map((item, i) => (
+                    <div key={i} className="flex justify-between border-b border-slate-800/50 pb-1.5">
+                      <span>{item.day}</span>
+                      <span>{item.hours}</span>
+                    </div>
+                  ))}
                 </div>
               )}
             </div>
@@ -236,7 +270,7 @@ export const LandingPage: React.FC = () => {
               <MapPin className="w-4 h-4 text-primary" /> Nuestra Ubicación
             </h3>
             <div className="flex flex-col gap-2 text-xs text-slate-400">
-              <p className="text-slate-300">Paseo de la Castellana 124, Madrid, España</p>
+              <p className="text-slate-300">{restaurantAddress}</p>
               <div className="h-28 rounded-xl bg-slate-800 border border-slate-700/50 relative overflow-hidden flex items-center justify-center">
                 <span className="text-[10px] uppercase font-bold tracking-wide text-slate-500">Google Map Placeholder</span>
               </div>
@@ -423,30 +457,48 @@ export const LandingPage: React.FC = () => {
       {/* Menu / Carta Section */}
       {menuItems.length > 0 && (
         <section id="carta" className="max-w-6xl w-full mx-auto px-4 py-12 border-t border-slate-900 page-transition">
-          <h3 className="text-sm font-semibold tracking-wider uppercase text-slate-400 mb-6 flex items-center gap-2">
+          <h3 className="text-sm font-semibold tracking-wider uppercase text-slate-400 mb-8 flex items-center gap-2">
             🍽️ Nuestra Carta y Especialidades
           </h3>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-            {menuItems.filter(item => item.available).map((item) => (
-              <div key={item.id} className="bg-slate-900/60 border border-slate-800/80 rounded-2xl overflow-hidden shadow-sm flex flex-col justify-between hover:scale-[1.01] transition-transform duration-300">
-                <div className="h-36 bg-slate-950 flex items-center justify-center overflow-hidden">
-                  {item.imageUrl ? (
-                    <img src={item.imageUrl} alt={item.name} className="w-full h-full object-cover" />
-                  ) : (
-                    <Utensils className="w-10 h-10 text-slate-700" />
-                  )}
-                </div>
-                <div className="p-4 flex flex-col gap-1.5">
-                  <div className="flex justify-between items-start gap-2">
-                    <h4 className="text-xs font-bold text-white leading-tight">{item.name}</h4>
-                    <span className="text-xs font-bold text-primary font-mono">${item.price.toLocaleString('es-CO')}</span>
+          
+          <div className="flex flex-col gap-10">
+            {Object.entries({
+              ENTRADA: { label: 'Entradas', items: [] },
+              PLATO_FUERTE: { label: 'Platos Fuertes', items: [] },
+              POSTRE: { label: 'Postres', items: [] },
+              BEBIDA: { label: 'Bebidas', items: [] }
+            }).map(([key, cat]: [string, { label: string; items: any[] }]) => {
+              const catItems = menuItems.filter(item => item.available && item.category === key);
+              if (catItems.length === 0) return null;
+              
+              return (
+                <div key={key} className="flex flex-col gap-4">
+                  <h4 className="text-xs font-bold text-primary border-l-2 border-primary pl-2.5 uppercase tracking-wider">{cat.label}</h4>
+                  <div className="grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-6">
+                    {catItems.map((item) => (
+                      <div key={item.id} className="bg-slate-900/60 border border-slate-800/80 rounded-2xl overflow-hidden shadow-sm flex flex-col justify-between hover:scale-[1.01] transition-transform duration-300">
+                        <div className="h-24 sm:h-36 bg-slate-950 flex items-center justify-center overflow-hidden">
+                          {item.imageUrl ? (
+                            <img src={item.imageUrl} alt={item.name} className="w-full h-full object-cover" />
+                          ) : (
+                            <Utensils className="w-8 h-8 text-slate-700" />
+                          )}
+                        </div>
+                        <div className="p-3 flex flex-col gap-1 flex-grow justify-between">
+                          <div className="flex flex-col gap-0.5">
+                            <h5 className="text-[10px] sm:text-xs font-bold text-white leading-tight line-clamp-1">{item.name}</h5>
+                            {item.description && (
+                              <p className="text-[8px] sm:text-[10px] text-slate-400 leading-normal line-clamp-2">{item.description}</p>
+                            )}
+                          </div>
+                          <span className="text-[10px] sm:text-xs font-extrabold text-primary font-mono mt-1.5 block">${item.price.toLocaleString('es-CO')}</span>
+                        </div>
+                      </div>
+                    ))}
                   </div>
-                  {item.description && (
-                    <p className="text-[10px] text-slate-400 leading-relaxed line-clamp-2">{item.description}</p>
-                  )}
                 </div>
-              </div>
-            ))}
+              );
+            })}
           </div>
         </section>
       )}
@@ -457,12 +509,7 @@ export const LandingPage: React.FC = () => {
           📸 Galería del Restaurante
         </h3>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-          {[
-            'https://images.unsplash.com/photo-1514933651103-005eec06c04b?auto=format&fit=crop&w=400&h=300&q=80',
-            'https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=400&h=300&q=80',
-            'https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=400&h=300&q=80',
-            'https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?auto=format&fit=crop&w=400&h=300&q=80'
-          ].map((url, i) => (
+          {galleryImages.map((url, i) => (
             <div key={i} className="aspect-video rounded-xl bg-slate-800 overflow-hidden border border-slate-800 group cursor-pointer shadow-lg">
               <img src={url} alt="Platillo" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300" />
             </div>
