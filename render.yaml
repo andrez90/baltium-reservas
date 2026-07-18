@@ -11,12 +11,22 @@ services:
       - key: PORT
         value: 3001
       - key: DATABASE_URL
-        placeholder: Pega aquí la URL de conexión (Transaction Pooler) de Supabase
+        fromDatabase:
+          name: baltium-db
+          property: connectionString
       - key: DIRECT_URL
-        placeholder: Pega aquí la URL de conexión directa (Session Pooler) de Supabase
+        fromDatabase:
+          name: baltium-db
+          property: connectionString
       - key: JWT_SECRET
         generateValue: true
       - key: JWT_REFRESH_SECRET
         generateValue: true
       - key: CORS_ORIGIN
         value: https://baltium-reservas.netlify.app
+
+databases:
+  - name: baltium-db
+    databaseName: baltium_reservas
+    user: baltium_user
+    plan: free
