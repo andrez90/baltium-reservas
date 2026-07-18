@@ -16,7 +16,7 @@
     "canvas-confetti": "^1.9.3",
     "chart.js": "^4.4.2",
     "framer-motion": "^11.1.7",
-    "lucide-react": "^0.368.0",
+    "lucide-react": "^0.468.0",
     "react": "^19.2.7",
     "react-chartjs-2": "^5.2.0",
     "react-dom": "^19.2.7",
