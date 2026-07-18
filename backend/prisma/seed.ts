@@ -42,7 +42,14 @@ async function main() {
         metaPixelId: 'pixel_123456',
         googleAnalyticsId: 'G-XXXXXXXXXX',
         whatsappEnabled: true,
-        smtpHost: 'smtp.mailtrap.io'
+        smtpHost: 'smtp.mailtrap.io',
+        address: 'Altamira Palmira',
+        gallery: [
+          'https://images.unsplash.com/photo-1514933651103-005eec06c04b?auto=format&fit=crop&w=400&h=300&q=80',
+          'https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=400&h=300&q=80',
+          'https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=400&h=300&q=80',
+          'https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?auto=format&fit=crop&w=400&h=300&q=80'
+        ]
       })
     }
   });
@@ -60,7 +67,12 @@ async function main() {
       tableCount: 6,
       capacity: 24,
       configuration: JSON.stringify({
-        whatsappEnabled: false
+        whatsappEnabled: false,
+        address: 'Calle Real #12-45, Palmira',
+        gallery: [
+          'https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=400&h=300&q=80',
+          'https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=400&h=300&q=80'
+        ]
       })
     }
   });
