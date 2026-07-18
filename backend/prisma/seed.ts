@@ -6,6 +6,13 @@ const prisma = new PrismaClient();
 async function main() {
   console.log('Starting seeding database...');
 
+  // Check if we already have tenants to prevent wiping production database
+  const tenantCount = await prisma.tenant.count();
+  if (tenantCount > 0) {
+    console.log('Database already has data. Skipping seeding.');
+    return;
+  }
+
   // 1. Clean existing data
   await prisma.auditLog.deleteMany();
   await prisma.config.deleteMany();
